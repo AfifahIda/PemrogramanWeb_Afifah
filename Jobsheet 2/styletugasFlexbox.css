@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+    padding-top: 50px;
+}
+
+.container-satu {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.sidebar-satu {
+    width: 150%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #CCFFFF; --code warna diubah 
+    margin-bottom: 20px;
+}
+
+.kolom-utama {
+    width: 600%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #99FFCC; --code warna diubah 
+    margin-bottom: 20px;
+}
+
+.sidebar-dua {
+    width: 150%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #66CC99; --code warna diubah 
+    margin-bottom: 20px;
+}
